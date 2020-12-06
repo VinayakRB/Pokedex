@@ -5,4 +5,4 @@
 * **React-JS-HTML-CSS**
 
 > Here's a screenshot of how the app works!
-
+![Interface](https://github.com/VinayakRB/Pokedex/blob/master/pokedex/public/chrome-capture.jpg?raw=true)
