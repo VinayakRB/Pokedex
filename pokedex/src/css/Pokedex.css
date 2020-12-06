@@ -13,3 +13,9 @@
   text-align: center;
   color: grey;
 }
+
+.Pokedex-message {
+  grid-column: 1 / -1;
+  font-size: 1.3rem;  
+  text-transform: uppercase;
+}

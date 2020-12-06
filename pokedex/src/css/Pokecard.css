@@ -21,3 +21,11 @@
   padding: 0;
   width: 150px;
 }
+
+.Pokecard-won {
+  box-shadow: 0 0 10px lime;
+}
+
+.Pokecard-lost {
+  box-shadow: 0 0 10px rgb(255, 0, 55);
+}
