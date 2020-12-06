@@ -1,42 +1,57 @@
 
 .Pokecard {
   text-align: center;
-  padding: 20px;
-  border-radius: 5px;
+  padding: 10px;
+  border-radius: 25px;
+  background: #E4E9F2;
+  width: 200px;
+}
+
+.Pokecard > * {
+  color: #322F33;
+}
+
+.Pokecard-wrapper {
   background: white;
+  border-radius: 20px;
 }
 
 .Pokecard-h3 {
-  font-family: 'Ranchers', sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Righteous', sans-serif;
+  font-size: 1.3rem;
   margin: 0;
-  color: rgb(68, 68, 68);
+  padding: 15px 5px;
   letter-spacing: 3px;
 }
 
-.Pokecard > p {
+.Pokecard-stats {
+  padding: 10px;
+}
+
+.Pokecard p {
   font-size: 1.2rem;
-  color: rgb(92, 92, 92);
   margin: 0;
   font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
 }
 
-.Pokecard > img {
+.Pokecard img {
+  background-color: #E4E9F2;
+  border-radius: 50%;
   padding: 0;
   width: 150px;
   transition: all 0.5s;
 }
 
-.Pokecard > img:hover {
+.Pokecard img:hover {
   transform: scale(1.1);
   opacity: 0.8;
 }
 
 .Pokecard-won {
-  box-shadow: 2px 2px 5px #81d100;
+  box-shadow: 0 0 10px rgb(61, 232, 255);
 }
 
 .Pokecard-lost {
-  box-shadow: 2px 2px 5px #f94144;
+  box-shadow: 0 0 10px rgb(255, 56, 56);
 }

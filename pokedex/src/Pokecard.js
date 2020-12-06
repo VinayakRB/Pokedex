@@ -17,10 +17,14 @@ export default class Pokecard extends Component {
     
     return (
       <div className={cardClass}>
-        <h3 className="Pokecard-h3">{[props.name]}</h3>
-        <img src={source} alt={props.name}/>
-        <p>Type: {props.type}</p>
-        <p>EXP: {props.base_experience}</p>
+        <div className="Pokecard-wrapper">
+          <h3 className="Pokecard-h3">{[props.name]}</h3>
+          <img src={source} alt={props.name}/>
+          <div className="Pokecard-stats">
+            <p>Type: {props.type}</p>
+            <p>EXP: {props.base_experience}</p>
+          </div>
+        </div>
       </div>
     )
   }

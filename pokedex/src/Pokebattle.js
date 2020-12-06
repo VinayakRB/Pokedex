@@ -39,7 +39,10 @@ export default class Pokebattle extends Component {
         <Pokedex data={deck1} isWinner={exp1 > exp2} />
         <div className="Pokebattle-results">
           <h3>EXP : {exp1}</h3>
-          <h1 className="Pokebattle-message">deck1 has {message(exp1, exp2)} / deck2 has {message(exp2, exp1)}</h1>
+          <h1 className="Pokebattle-message">
+            deck1 has {message(exp1, exp2)} -
+             /- deck2 has {message(exp2, exp1)}
+          </h1>
           <h3>EXP : {exp2}</h3>
         </div>
         <Pokedex data={deck2} isWinner={exp2 > exp1} />
