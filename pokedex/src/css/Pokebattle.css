@@ -1,0 +1,27 @@
+.Pokebattle {
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.Pokebattle-message {
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.Pokebattle-results > * {
+  padding: 10px;
+  margin: 0;
+}
+
+.Pokebattle-results {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: rgb(92, 92, 92);
+  letter-spacing: 2px;
+}
